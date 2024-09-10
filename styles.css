@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(0, 0, 0);
+}
+.alucard-nav ul{
+  list-style-type: none;
+  position: relative;
+  overflow: hidden;
+background-color: rgb(25, 1, 1);
+height: 80px;
+}
+.alucard-nav a{
+  position:relative;
+  text-decoration: none;
+color: bisque;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15pt;
+top:10px;
+background-color: rgba(114, 6, 6, 0.258);
+padding: 10px;
+border-radius: 11px;
+}
+.alucard-nav a:hover{
+  background-color: rgb(0, 0, 0);
+  color: azure;
+}
+.alucard-nav li{
+  float: left;
+padding: 20px;
+}
+.logo{
+  position: relative;
+  float: right;
+  background-color: rgb(25, 1, 1);
+  font-size: 40pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: bisque;
+  top: 0px;
+  border: solid 1px rgbrgb(25, 1, 1);
+  padding: 10px;
+  right: 0px;
+ 
+}
+.logo:hover{
+color: azure;
+}
+.alucard img{
+  clear: both;
+ width: 700px;
+ height: 700px;
+ border-radius: 50%;
+position: relative;
+ left: 880px;
+ top: 30px;
+}
+.left{
+  clear: both;
+  color: bisque;
+  width: 50%;
+  height: 700px;
+  border-radius: 30px;
+  position: relative;
+  background-color: rgb(25, 1, 1);
+  top:-660px;
+  left: 30px;
+  
+}
+.left h1{
+  position:absolute;
+left: 45%;
+  
+}
+.left h1:hover{
+  color: azure;
+  
+}
+.left hr{
+  position:absolute;
+left: 30%;
+top: 6%;
+width: 300px;
+border:solid 3px bisque;
+border-radius: 11px;
+
+}
